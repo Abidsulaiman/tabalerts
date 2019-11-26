@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
+
+*{
+    outline: 0!important;
+    box-shadow: none;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'open sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333744;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #44495b;
+    letter-spacing: 0.03em;
+    line-height: 1.4;
+}
+
+.display-3 {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+.v-centered{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.navbar-light .navbar-toggler {
+    border: none;
+}
+.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #333744 !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.045em;
+}
+.my-80{
+    margin: 30px 0;
+}
+.fs-1{
+    font-size: 1rem;
+}
+
+.fs-1half {
+    font-size: 1.5rem;
+}
+
+.fs-2 {
+    font-size: 1.25rem;
+}
+
+.btn{
+    border-radius: 1500px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #5f52d9;
+    border-color: #5f52d9;
+    padding: .65rem 1.5rem;
+    font-size: 12px;
+    font-weight: 400;
+    box-shadow: -6px 7px 16px #07349a47;
+}
+.main-header .header_content img{
+    display: none;
+}
+header.main-header {
+    padding: 50px 20px;
+}
+.feature_person{
+    display: none;
+}
+.card{
+    border-radius: 20px;
+    border:none;
+    box-shadow: 0 0 40px 0px #0000000d;
+}
+.navbar{
+    background: transparent;
+    transition: all ease .5s;
+}
+.scrolled{
+    background: #fff;
+}
+
+.alertObj1{
+    width: 80px;
+    position: absolute;
+    top: -20px;
+}
+.section{
+    padding: 50px 0;
+}
+.section h5{
+    font-weight: 600;
+}
+.section p{
+    font-weight: 300;
+    color: #868b91;
+}
+
+.section_title span{
+    font-weight: 200;
+}
+
+
+.nav-pills .nav-link{
+    color: #333744;
+    background-color: transparent;
+    box-shadow: 0 0 40px 0px transparent;
+    transition: all ease .8s;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link, .nav-pills .nav-link:hover{
+    color: #333744;
+    background-color: #ffffff;
+    box-shadow: 0 0 40px 0px #00000026;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li{
+    margin: 1.2rem 0;
+}
+
+
+
+@media (min-width: 1200px) {
+    header.main-header{
+        min-height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 150px;
+    }
+    .main-header .header_content{
+        position: relative;
+    }
+    .main-header .header_content img{
+        display: block;
+        position: absolute;
+        top: -100px;
+        right: -100px;
+        width: 70%;
+    }
+    .tabAlertNav{
+        background: transparent;
+        min-height: 150px;
+        transition: all ease .5s;
+    }
+
+    .navbar-brand{
+        margin-right: 80px;
+    }
+    .section{
+        padding: 100px 0;
+    }
+
+    .alertObj1{
+        position: absolute;
+        left: -60px;
+        top: 34%;
+        width: 210px;
+        transform: translateY(-50%);
+    }
+    .feature_person{
+        width: 150px;
+    }
+    #get-in-touch .card{
+        background: url("../img/headerbg.svg") center center no-repeat;
+        background-size: cover;
+    }
+    .main_content{
+        background: url("../img/body_bg.svg") center center no-repeat;
+        background-size: cover;
+    }
+    .display-3 {
+        font-size: 4rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+    .my-80{
+        margin: 80px 0;
+    }
+    .fs-2{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:1200px) {
+    footer, section{
+        text-align: center;
+    }
+    navbar{
+        padding: 0;
+        background: #fff;
+    }
+    .fixed-top{
+        position: sticky;
+        top: 0;
+    }
+    .tab-content{
+        display: none;
+    }
+}
