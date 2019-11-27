@@ -118,6 +118,20 @@ header.main-header {
 .section_title span{
     font-weight: 200;
 }
+#pricing .card h3{
+    position: relative;
+    padding-bottom: .5rem;
+    margin-bottom: 1.5rem;
+}
+#pricing .card h3::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 5px;
+    background: var(--primary-color);
+}
 .flame_emoji{
     position: absolute;
     top: 30px;
