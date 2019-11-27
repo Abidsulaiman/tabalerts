@@ -84,14 +84,14 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 400;
     box-shadow: -6px 7px 16px #07349a47;
 }
+.form-control{
+    font-size: 14px;
+}
 .main-header .header_content img{
     display: none;
 }
 header.main-header {
     padding: 50px 20px;
-}
-.feature_person{
-    display: none;
 }
 .card{
     border-radius: 20px;
@@ -258,6 +258,10 @@ footer ul li{
         background: #fff;
     }
     .tab-content{
+        display: none;
+    }
+
+    .feature_person{
         display: none;
     }
 }
